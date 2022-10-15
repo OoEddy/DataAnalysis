@@ -1,0 +1,6 @@
+# Imported StudentsPerformance.csv
+import pandas as pd
+import mitosheet
+mitosheet.sheet(analysis_to_replay="id-ubehzzxvnx")
+StudentsPerformance = pd.read_csv(r'C:\Users\Edwin.mutwiri\Anaconda3\Mito Projects\school scores\StudentsPerformance.csv')
+
